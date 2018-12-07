@@ -26,7 +26,7 @@ class Controller{
             require_once '../App/Views/' . $view . '.php';
         }
         else{
-            die('View not found');
+            require_once '../App/Views/404/404.php';
         }
     }
 }
